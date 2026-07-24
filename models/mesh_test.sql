@@ -1,2 +1,2 @@
 select *  
-from {{ ref('fct_order_items') }}
+from {{ ref('sa_onboarding','fct_order_items') }}
